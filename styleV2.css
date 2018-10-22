@@ -40,6 +40,14 @@ html, body {
   display: flex;
 }
 
+.container-left nav .mobile-menu {
+  display: none;
+}
+
+.container-left nav #menu-button {
+  display: none;
+}
+
 .container-left nav li {
   list-style-type: none;
 }
@@ -74,6 +82,10 @@ html, body {
   .container-left {
     background-image: url("Group.svg");
     background-repeat: no-repeat;
+  }
+  .container-left .container-btn-input {
+    width: 90%;
+    margin-bottom: 120px;
   }
 }
 
@@ -164,6 +176,7 @@ section p {
   margin: auto;
 }
 
+/* Container Right*/
 .container-right {
   display: -webkit-box;
   display: -ms-flexbox;
