@@ -1,0 +1,195 @@
+/** Body **/
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/** End Body **/
+/* Containers */
+/* Container*/
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+/*Container-left*/
+.container-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  z-index: 2;
+  max-width: 100%;
+}
+
+.container-left nav {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-left nav li {
+  list-style-type: none;
+}
+
+.container-left nav li.active {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
+
+.container-left nav li a {
+  text-decoration: none;
+  color: black;
+}
+
+.container-left nav li a:hover {
+  color: blue;
+}
+
+.container-left nav ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media screen and (max-width: 480px) {
+  .container-left {
+    background-image: url("Group.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container-left {
+    background-image: url("Group.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .container-left {
+    background-image: url("Group.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+/*Title*/
+.lapinator-title {
+  font-size: 3.8em;
+  margin-bottom: 2px;
+}
+
+/*Container du btn & de l'input*/
+.container-btn-input {
+  width: 150%;
+  height: 50px;
+  margin: 10px;
+  -webkit-box-shadow: 10px 10px 50px 10px #656565;
+          box-shadow: 10px 10px 50px 10px #656565;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding-top: 10px;
+  /*Input de connexion session*/
+  /*Btn let's go*/
+}
+
+.container-btn-input .input {
+  width: 110%;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-btn-input .session {
+  color: #000000;
+  border: none;
+  width: 80%;
+}
+
+.container-btn-input .btn-go {
+  width: 150px;
+  background: #74b8a8;
+  color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid #74b8a8;
+  margin-left: -50px;
+}
+
+.container-btn-input img {
+  height: 20px;
+  margin: 10px 20px;
+  width: auto;
+}
+
+.sign-in {
+  margin: 4px 20px 2px 20px;
+}
+
+section {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section p {
+  margin: 0 0 50px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mdp {
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  height: 50px;
+  margin: auto;
+}
+
+.container-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  background-image: url("images/rabbit-image.jpg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 480px) {
+  .container-right {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .container-right {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .container-right {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styleV2.css.map */
